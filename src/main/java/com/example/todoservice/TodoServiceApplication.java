@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-//@EnableScheduling
+@EnableScheduling
 @EnableCaching
 public class TodoServiceApplication implements WebMvcConfigurer {
 
